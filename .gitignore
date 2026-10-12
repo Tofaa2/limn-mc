@@ -19,3 +19,22 @@ gradle-app.setting
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+# direnv
+.direnv/
+
+# Loom run directory
+run/
+
+# Zig
+.zig-cache/
+zig-out/
+zig-pkg/
+
+# NVIDIA DLSS SDK, downloaded separately
+native/dlss_sdk/
+
+# IDE
+.idea/
+*.iml
+.vscode/

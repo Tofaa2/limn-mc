@@ -1,0 +1,4 @@
+classTweaker	v1	official
+accessible	class	net/minecraft/client/renderer/texture/SpriteContents$AnimatedTexture
+accessible	class	net/minecraft/client/renderer/texture/SpriteContents$FrameInfo
+accessible	class	net/minecraft/client/renderer/rendertype/RenderSetup$TextureBinding

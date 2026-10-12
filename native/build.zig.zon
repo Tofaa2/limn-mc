@@ -1,0 +1,17 @@
+.{
+    .name = .limn_mc,
+    .fingerprint = 0x27d2d8341e093860,
+    .version = "0.1.0",
+    .minimum_zig_version = "0.16.0",
+    .dependencies = .{
+        .limn = .{
+            .url = "git+https://github.com/Tofaa2/limn.git#cfe61935c688316b0cf2897be1ef24eb603e0d7e",
+            .hash = "limn-0.1.4-fNmdmSuekwAtCxyCYdWTkp2zTeMqhwbQx0djcIT4pQoV",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
